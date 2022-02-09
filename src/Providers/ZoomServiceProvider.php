@@ -15,7 +15,7 @@ class ZoomServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../../config/config.php' => config_path('zoom.php'),
+                __DIR__.'/../../config/config.php' => config_path('zoom-second.php'),
             ], 'config');
         }
     }
@@ -31,9 +31,9 @@ class ZoomServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../../config/config.php', 'zoom');
 
         // Register the main class to use with the facade
-        $this->app->singleton('zoom', 'MacsiDigital\Zoom\Contracts\Zoom');
-        $this->app->bind('MacsiDigital\Zoom\Contracts\Zoom', 'MacsiDigital\Zoom\Support\Entry');
+        $this->app->singleton('zoom', 'p1613m\Zoom\Contracts\Zoom');
+        $this->app->bind('p1613m\Zoom\Contracts\Zoom', 'p1613m\Zoom\Support\Entry');
 
-        $this->app->bind('zoom.client', 'MacsiDigital\Zoom\Support\Client');
+        $this->app->bind('zoom-second.client', 'p1613m\Zoom\Support\Client');
     }
 }

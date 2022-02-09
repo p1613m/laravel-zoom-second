@@ -16,6 +16,6 @@ class Client extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'zoom.client';
+        return 'zoom-second.client';
     }
 }
