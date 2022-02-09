@@ -2,7 +2,7 @@
 
 namespace p1613m\Zoom\Requests;
 
-use p1613m\API\Support\PersistResource;
+use MacsiDigital\API\Support\PersistResource;
 
 class UpdateTelephony extends PersistResource
 {

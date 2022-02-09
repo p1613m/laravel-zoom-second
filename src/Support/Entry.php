@@ -2,8 +2,8 @@
 
 namespace p1613m\Zoom\Support;
 
-use p1613m\API\Support\Authentication\JWT;
-use p1613m\API\Support\Entry as ApiEntry;
+use MacsiDigital\API\Support\Authentication\JWT;
+use MacsiDigital\API\Support\Entry as ApiEntry;
 use p1613m\Zoom\Facades\Client;
 
 class Entry extends ApiEntry

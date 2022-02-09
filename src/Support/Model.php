@@ -2,7 +2,7 @@
 
 namespace p1613m\Zoom\Support;
 
-use p1613m\API\Support\ApiResource;
+use MacsiDigital\API\Support\ApiResource;
 
 class Model extends ApiResource
 {

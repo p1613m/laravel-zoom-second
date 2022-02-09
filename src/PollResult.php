@@ -2,7 +2,7 @@
 
 namespace p1613m\Zoom;
 
-use p1613m\API\Support\Resource;
+use MacsiDigital\API\Support\Resource;
 
 class PollResult extends Resource
 {
