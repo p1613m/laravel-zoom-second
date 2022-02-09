@@ -21,11 +21,6 @@
         "illuminate/support": "^7.0|^8.0",
         "macsidigital/laravel-api-client": "^3.3"
     },
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.16",
-        "orchestra/testbench": "^5.0|^6.0",
-        "phpunit/phpunit": "^9.0"
-    },
     "autoload": {
         "psr-4": {
             "p1613m\\Zoom\\": "src"
