@@ -6,7 +6,7 @@ use p1613m\Zoom\Support\Model;
 
 class RegistrationQuestion extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\UpdateRegistrationQuestion';
+    protected $insertResource = 'p1613m\Zoom\Requests\UpdateRegistrationQuestion';
 
     protected $endPoint = 'meetings/{meeting:id}/registrants/questions';
 

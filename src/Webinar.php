@@ -6,8 +6,8 @@ use p1613m\Zoom\Support\Model;
 
 class Webinar extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreWebinar';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateWebinar';
+    protected $insertResource = 'p1613m\Zoom\Requests\StoreWebinar';
+    protected $updateResource = 'p1613m\Zoom\Requests\UpdateWebinar';
 
     protected $endPoint = 'webinars';
 

@@ -6,8 +6,8 @@ use p1613m\Zoom\Support\Model;
 
 class Poll extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StorePoll';
-    protected $storeResource = 'MacsiDigital\Zoom\Requests\UpdatePoll';
+    protected $insertResource = 'p1613m\Zoom\Requests\StorePoll';
+    protected $storeResource = 'p1613m\Zoom\Requests\UpdatePoll';
 
     protected $endPoint = '/meetings/{meeting:id}/polls';
 

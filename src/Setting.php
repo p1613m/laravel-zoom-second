@@ -6,7 +6,7 @@ use p1613m\Zoom\Support\Model;
 
 class Setting extends Model
 {
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateSetting';
+    protected $updateResource = 'p1613m\Zoom\Requests\UpdateSetting';
 
     protected $customEndPoints = [
         'get' => 'users/{user:id}/settings',

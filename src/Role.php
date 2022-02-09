@@ -6,8 +6,8 @@ use p1613m\Zoom\Support\Model;
 
 class Role extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreRole';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateRole';
+    protected $insertResource = 'p1613m\Zoom\Requests\StoreRole';
+    protected $updateResource = 'p1613m\Zoom\Requests\UpdateRole';
     
     protected $endPoint = 'roles';
 

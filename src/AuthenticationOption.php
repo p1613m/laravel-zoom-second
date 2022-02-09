@@ -6,6 +6,6 @@ use p1613m\Zoom\Support\Model;
 
 class AuthenticationOption extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreAuthenticationOption';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateAuthenticationOption';
+    protected $insertResource = 'p1613m\Zoom\Requests\StoreAuthenticationOption';
+    protected $updateResource = 'p1613m\Zoom\Requests\UpdateAuthenticationOption';
 }

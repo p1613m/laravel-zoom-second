@@ -6,7 +6,7 @@ use p1613m\Zoom\Support\Model;
 
 class WebinarParticipant extends Model
 {
-    //protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreRegistrant';
+    //protected $insertResource = 'p1613m\Zoom\Requests\StoreRegistrant';
 
     protected $endPoint = '/metrics/webinars/{webinar:id}/participants';
 

@@ -6,8 +6,8 @@ use p1613m\Zoom\Support\Model;
 
 class Scheduler extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreScheduler';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateScheduler';
+    protected $insertResource = 'p1613m\Zoom\Requests\StoreScheduler';
+    protected $updateResource = 'p1613m\Zoom\Requests\UpdateScheduler';
     
     protected $endPoint = 'users/{user_id}/schedulers';
 

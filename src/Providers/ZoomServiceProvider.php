@@ -28,10 +28,10 @@ class ZoomServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../../config/config.php', 'zoom');
+        $this->mergeConfigFrom(__DIR__.'/../../config/config.php', 'zoom-second');
 
         // Register the main class to use with the facade
-        $this->app->singleton('zoom', 'p1613m\Zoom\Contracts\Zoom');
+        $this->app->singleton('zoom-second', 'p1613m\Zoom\Contracts\Zoom');
         $this->app->bind('p1613m\Zoom\Contracts\Zoom', 'p1613m\Zoom\Support\Entry');
 
         $this->app->bind('zoom-second.client', 'p1613m\Zoom\Support\Client');

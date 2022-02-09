@@ -9,8 +9,8 @@ use p1613m\Zoom\Support\Model;
 
 class User extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreUser';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateUser';
+    protected $insertResource = 'p1613m\Zoom\Requests\StoreUser';
+    protected $updateResource = 'p1613m\Zoom\Requests\UpdateUser';
 
     protected $attributes = [
         'action' => 'create',

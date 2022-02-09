@@ -6,8 +6,8 @@ use p1613m\Zoom\Support\Model;
 
 class Assistant extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreAssistant';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateAssistant';
+    protected $insertResource = 'p1613m\Zoom\Requests\StoreAssistant';
+    protected $updateResource = 'p1613m\Zoom\Requests\UpdateAssistant';
     
     protected $endPoint = 'users/{user_id}/assistants';
 

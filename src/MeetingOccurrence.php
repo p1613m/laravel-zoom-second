@@ -6,7 +6,7 @@ use p1613m\Zoom\Support\Model;
 
 class MeetingOccurrence extends Model
 {
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateOccurrence';
+    protected $updateResource = 'p1613m\Zoom\Requests\UpdateOccurrence';
 
     protected $endPoint = 'meetings/{meeting:id}';
 

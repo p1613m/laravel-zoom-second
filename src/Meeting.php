@@ -6,8 +6,8 @@ use p1613m\Zoom\Support\Model;
 
 class Meeting extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreMeeting';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateMeeting';
+    protected $insertResource = 'p1613m\Zoom\Requests\StoreMeeting';
+    protected $updateResource = 'p1613m\Zoom\Requests\UpdateMeeting';
 
     protected $endPoint = 'meetings';
 

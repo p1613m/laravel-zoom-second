@@ -7,8 +7,8 @@ use p1613m\Zoom\Support\Model;
 class Account extends Model
 {
     // API included but its not open to the majority of API Users
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StoreAccount';
-    protected $updateResource = 'MacsiDigital\Zoom\Requests\UpdateAccount';
+    protected $insertResource = 'p1613m\Zoom\Requests\StoreAccount';
+    protected $updateResource = 'p1613m\Zoom\Requests\UpdateAccount';
     
     protected $endPoint = 'accounts';
 

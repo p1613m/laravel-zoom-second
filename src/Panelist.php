@@ -6,7 +6,7 @@ use p1613m\Zoom\Support\Model;
 
 class Panelist extends Model
 {
-    protected $insertResource = 'MacsiDigital\Zoom\Requests\StorePanelist';
+    protected $insertResource = 'p1613m\Zoom\Requests\StorePanelist';
 
     protected $endPoint = 'webinars/{webinar:id}/panelists';
 

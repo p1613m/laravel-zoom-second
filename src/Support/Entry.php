@@ -8,7 +8,7 @@ use p1613m\Zoom\Facades\Client;
 
 class Entry extends ApiEntry
 {
-    protected $modelNamespace = '\MacsiDigital\Zoom\\';
+    protected $modelNamespace = '\p1613m\Zoom\\';
 
     protected $pageField = 'page_number';
 
@@ -46,18 +46,18 @@ class Entry extends ApiEntry
      */
     public function __construct($apiKey = null, $apiSecret = null, $tokenLife = null, $maxQueries = null, $baseUrl = null)
     {
-        $this->apiKey = $apiKey ? $apiKey : config('zoom.api_key');
-        $this->apiSecret = $apiSecret ? $apiSecret : config('zoom.api_secret');
-        $this->tokenLife = $tokenLife ? $tokenLife : config('zoom.token_life');
-        $this->maxQueries = $maxQueries ? $maxQueries : (config('zoom.max_api_calls_per_request') ? config('zoom.max_api_calls_per_request') : $this->maxQueries);
-        $this->baseUrl = $baseUrl ? $baseUrl : config('zoom.base_url');
+        $this->apiKey = $apiKey ? $apiKey : config('zoom-second.api_key');
+        $this->apiSecret = $apiSecret ? $apiSecret : config('zoom-second.api_secret');
+        $this->tokenLife = $tokenLife ? $tokenLife : config('zoom-second.token_life');
+        $this->maxQueries = $maxQueries ? $maxQueries : (config('zoom-second.max_api_calls_per_request') ? config('zoom-second.max_api_calls_per_request') : $this->maxQueries);
+        $this->baseUrl = $baseUrl ? $baseUrl : config('zoom-second.base_url');
     }
 
     public function newRequest()
     {
-        if (config('zoom.authentication_method') == 'jwt') {
+        if (config('zoom-second.authentication_method') == 'jwt') {
             return $this->jwtRequest();
-        } elseif (config('zoom.authentication_method') == 'oauth2') {
+        } elseif (config('zoom-second.authentication_method') == 'oauth2') {
         }
     }
 
